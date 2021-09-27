@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>
+        Welcome USERS!!!
+    </title>
+
+    <style>
+        .btn {
+            background-color: skyblue;
+            color: black;
+            margin: 10px;
+            /* border: skyblue; */
+            font-weight: bold;
+        }
+        
+        .btn-x {
+            background-color: red;
+        }
+        
+        #title1 {
+            font-weight: bold;
+        }
+        
+        td div {
+            border: solid 0.1px black;
+            height: 20px;
+            width: 170px;
+            background-color: white;
+        }
+        
+        h1 {
+            color: black;
+            text-align: center;
+        }
+        
+        #allButton {
+            text-align: center;
+        }
+        
+        #reset {
+            padding-right: 10px;
+            padding-left: 10px;
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+        
+        #container {
+            padding: 10px;
+            width: 375px;
+            margin: auto;
+            background-color: bisque;
+            border-radius: 5%;
+        }
+        
+        body {
+            padding: 235px;
+        }
+        
+        #myTable {}
+    </style>
+
+</head>
+
+<body>
+    <div id="container">
+
+        <div>
+            <h1>Compute the squares</h1>
+        </div>
+
+        <table id="myTable">
+
+            <thead>
+
+                <tr>
+                    <th>Input</th>
+                    <th>Output</th>
+                </tr>
+
+            </thead>
+
+            <tbody id="tb">
+
+                <tr>
+                    <td><input type="number" class="input" value="0"></td>
+                    <td>
+                        <div></div>
+                    </td>
+                    <td>
+                        <button id="delete" class="btn-x">x</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><input type="number" class="input" value="0"></td>
+                    <td>
+                        <div></div>
+                    </td>
+                    <td>
+                        <button id="delete" class="btn-x">x</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><input type="number" class="input" value="0"></td>
+                    <td>
+                        <div></div>
+                    </td>
+                    <td>
+                        <button id="delete" class="btn-x">x</button>
+                    </td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+        <div id="allButton">
+
+            <button id="button" class="btn">Calculate</button>
+
+            <button id="reset" class="btn">Reset</button>
+
+            <button id="add" class="btn">Add Row</button>
+
+        </div>
+
+        <script src="Webpage.js"></script>
+
+    </div>
+
+</body>
+
+</html>
